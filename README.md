@@ -24,3 +24,10 @@ Prompt: anthropocene, Date TBD
 1) `targets` pipeline in R to get data ready 
 2) `ggplot` to make base plot 
 2) PowerPoint to add chart elements
+
+## Design considerations
+* Flower colors were picked by considering contrast needed for those with visual impairements and/or colorblindness (508 compliance).
+* Flower stem lines serve as a visual guide for the eye from the start of a drought to its end (the flowers) and double encodes the duration variable. 
+* Fonts and visual hierarchy was deliberately designed to guide the eye and progressively deliver information.
+* Explanatory axis provides more context for general audiences that may not have a frame of reference for the years and different epochs in the common era. 
+* Captions, legend, and "How to read the diagram" provide extra information about the underlying data meant to be consumed last if users are interested. 
