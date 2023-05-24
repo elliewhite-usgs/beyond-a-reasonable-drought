@@ -6,7 +6,7 @@ Prompt: anthropocene, Date TBD
 
 ## Image(s) 
 
-![20230419_anthropocene_ewhite](/uploads/3db85b3d13c6a27fc634f628dcf023d6/20230419_anthropocene_ewhite.png)
+![20230419_anthropocene_ewhite](https://github.com/whiteellie/chartchallenge-drought/blob/main/out/20230419_anthropocene_ewhite.png)
 
 ## Key Takeaways
 
