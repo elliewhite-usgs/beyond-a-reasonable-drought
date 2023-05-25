@@ -17,15 +17,18 @@ Prompt: anthropocene, Date TBD
 * LBDA V2: Gille, E.P.; Wahl, E.R.; Vose, R.S.; Cook, E.R. (2017-08-03): NOAA/WDS Paleoclimatology - Living Blended Drought Atlas (LBDA) Version 2 - recalibrated reconstruction of United States Summer PMDI over the last 2000 years. Regional subset used. NOAA National Centers for Environmental Information. https://doi.org/10.25921/7xm8-jn36. Accessed 03/20/2022.
 
 ## Key Programs and/or Packages Used
+
 * sessionInfo() = R version 4.2.3 (2023-03-15 ucrt), Platform: x86_64-w64-mingw32/x64 (64-bit), Running under: Windows 10 x64 (build 19044) 
 * packages = c("raster", "ncdf4", "sf", "sfheaders", "rgdal", "stringr", "scales", "ggplot2", "ggimage", "lubridate", "tidyverse", "RColorBrewer")
 
 ## Overall Process to Create the Viz
+
 1) `targets` pipeline in R to get data ready 
 2) `ggplot` to make base plot 
 2) PowerPoint to add chart elements
 
-## Design considerations
+## Design Considerations
+
 * Flower colors were picked by considering contrast needed for those with visual impairements and/or colorblindness (508 compliance).
 * Flower stem lines serve as a visual guide for the eye from the end of the drought (the flowers) to its start (the horizontal axis) and double encodes the duration variable. 
 * Fonts and text hierarchy was deliberately designed to guide the eye and progressively deliver information.
